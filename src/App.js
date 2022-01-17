@@ -1,11 +1,14 @@
 
 import './App.css';
-import { Registeration } from './components/Registerform'
+// import { Registeration } from './components/Registerform';
+// import {Login} from "./components/Loginform";
+import {Navbar} from "./components/Navbar";
+
 function App() {
   return (
     <div className="App">
-     <h1>jobportal</h1>
-      <Registeration/>
+  
+    <Navbar/>
     </div>
   );
 }
